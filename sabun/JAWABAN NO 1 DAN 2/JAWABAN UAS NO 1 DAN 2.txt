@@ -1,0 +1,20 @@
+Nama	: Sendy Ramadhan Pratama
+NIM		: 191011401789
+Kelas	: 06 TPLE 025
+
+No
+1.	Apa yang dimaksud dengan state management pada flutter?  
+	Jawab	: State Management adalah sebuah cara untuk mengatur data / state kita bekerja, bisa juga untuk memisahkan 
+	antara logic dan view dimana logic tersebut juga bisa re-usable.
+
+2.	Sebutkan apa saja state management pada flutter !
+	Jawab 	: Secara konsep state terbagi menjadi dua yaitu local state dan app state.
+
+	•	Local State 
+		Sebagai contoh dari local state kita dapat melihat kode diatas. Variabel _index merupakan local variable atau juga bisa 
+		disebut dengan local state karena bersifat private sehingga tidak bisa diakses di kelas lain.
+	•	App State
+		Tetapi pada di beberapa kasus tentu membutuhkan state yang dapat berjalan di seluruh layar aplikasi atau juga bisa 
+		disebut dengan app state. Berdasarkan dokumentasi Flutter untuk mengimplementasikannya terdapat beberapa cara yaitu 
+		InheritedWidget, InheritedModel, Redux, Fish-Redux, BLoC, GetIt, MobX, Binder, GetX, Riverpod, dan Provider.
+
